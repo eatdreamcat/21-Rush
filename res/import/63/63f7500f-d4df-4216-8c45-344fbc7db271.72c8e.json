@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ae_fanpai03",
+    "texture": "baux7PxMFM1q8br64y7nhp",
+    "rect": [
+      20,
+      12,
+      105,
+      275
+    ],
+    "offset": [
+      -65,
+      -1
+    ],
+    "originalSize": [
+      275,
+      297
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

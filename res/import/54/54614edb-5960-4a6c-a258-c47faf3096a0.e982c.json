@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "ae_light05",
+    "texture": "ceDFkzOExDW4nh1yxk6dTE",
+    "rect": [
+      23,
+      33,
+      185,
+      242
+    ],
+    "offset": [
+      0,
+      -1.5
+    ],
+    "originalSize": [
+      231,
+      305
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}

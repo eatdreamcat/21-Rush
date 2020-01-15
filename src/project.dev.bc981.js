@@ -1513,7 +1513,7 @@ window.__require = function e(t, n, r) {
         return addScore;
       };
       PokerRoot.prototype.updateValueLabel = function() {
-        if (0 == this.totalValue1 || this.totalValue0 == this.totalValue1 && this.totalValue1 > 21) {
+        if (0 == this.totalValue1 || this.totalValue0 == this.totalValue1 || this.totalValue1 > 21) {
           this.MutilpValueNode.active = false;
           this.SingleValueNode.active = true;
         } else {

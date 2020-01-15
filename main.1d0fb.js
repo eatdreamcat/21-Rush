@@ -138,7 +138,7 @@ window.boot = function () {
         BK.Script.loadlib();
     }
     else {
-        var bundledScript = settings.debug ? 'src/project.dev.11573.js' : 'src/project.js';
+        var bundledScript = settings.debug ? 'src/project.dev.bc981.js' : 'src/project.js';
         if (jsList) {
             jsList = jsList.map(function (x) {
                 return 'src/' + x;
@@ -174,7 +174,7 @@ window.boot = function () {
     cc.game.run(option, onStart);
 };
 
-// main.000a0.js is qqplay and jsb platform entry file, so we must leave platform init code here
+// main.1d0fb.js is qqplay and jsb platform entry file, so we must leave platform init code here
 if (false) {
     BK.Script.loadlib('GameRes://src/settings.js');
     BK.Script.loadlib();

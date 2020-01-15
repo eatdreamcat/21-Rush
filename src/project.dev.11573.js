@@ -1488,7 +1488,6 @@ window.__require = function e(t, n, r) {
           totalValue0_test + 10 == 21 && (totalValue0_test = 21);
           21 != totalValue1_test && (totalValue1_test += 10);
         }
-        totalValue1_test > 21 && (totalValue1_test = 0);
         totalValue0_test = Math.max(0, totalValue0_test);
         totalValue1_test = Math.max(0, totalValue1_test);
         if (totalValue0_test > 21) this.boom(isCheck); else if (21 == totalValue0_test || 21 == totalValue1_test) {
@@ -1508,12 +1507,13 @@ window.__require = function e(t, n, r) {
         var totalValue1_test = this.totalValue1;
         if (totalValue0_test > 21) ; else if (21 == totalValue0_test || 21 == totalValue1_test) {
           addScore += this.complete(isWild, true);
+          this.node.childrenCount >= 5 && (addScore += Pokers_1.OVER_5_SCORE);
           console.error(" add Score:", addScore);
         } else this.node.childrenCount >= 5 ? addScore += this.overFive(true) : Game_1.Game.clearStreak();
         return addScore;
       };
       PokerRoot.prototype.updateValueLabel = function() {
-        if (0 == this.totalValue1 || this.totalValue0 == this.totalValue1) {
+        if (0 == this.totalValue1 || this.totalValue0 == this.totalValue1 && this.totalValue1 > 21) {
           this.MutilpValueNode.active = false;
           this.SingleValueNode.active = true;
         } else {
@@ -1540,6 +1540,7 @@ window.__require = function e(t, n, r) {
         Game_1.Game.getStreak() >= 3 && (score += (Game_1.Game.getStreak() - 2) * Pokers_1.STREAK_SCORE);
         if (!isCheck) {
           console.log(" \u5b8c\u6210 21\u70b9");
+          this.node.childrenCount >= 5 && Game_1.Game.addScore(Pokers_1.OVER_5_SCORE, CMath.ConvertToNodeSpaceAR(this.node, Game_1.Game.removeNode));
           this.flyALLChildren(isWild ? Pokers_1.WILD_21_SCORE : Pokers_1.NORMAL_21_SCORE);
           this.totalValue0 = 0;
           this.totalValue1 = 0;

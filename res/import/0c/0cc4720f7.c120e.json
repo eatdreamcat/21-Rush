@@ -1,0 +1,155 @@
+[
+  {
+    "__type__": "cc.LabelAtlas",
+    "_name": "BigLightGreen",
+    "spriteFrame": {
+      "__uuid__": "ebUrgZnrVLfLmpqGp+sy/9"
+    },
+    "fontSize": 51.92,
+    "_fntConfig": {
+      "commonHeight": 59,
+      "fontSize": 51,
+      "atlasName": "num_fontbiglightgreen",
+      "fontDefDictionary": {
+        "48": {
+          "rect": {
+            "x": 0,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "49": {
+          "rect": {
+            "x": 45,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "50": {
+          "rect": {
+            "x": 90,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "51": {
+          "rect": {
+            "x": 135,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "52": {
+          "rect": {
+            "x": 180,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "53": {
+          "rect": {
+            "x": 225,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "54": {
+          "rect": {
+            "x": 270,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "55": {
+          "rect": {
+            "x": 315,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "56": {
+          "rect": {
+            "x": 360,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        },
+        "57": {
+          "rect": {
+            "x": 405,
+            "y": 0,
+            "width": 45,
+            "height": 59
+          },
+          "xOffset": 0,
+          "yOffset": 0,
+          "xAdvance": 45
+        }
+      },
+      "kerningDict": {}
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "num_fontbiglightgreen",
+      "texture": "be/utiCDxKnZZNPRcHFQse",
+      "rect": [
+        2,
+        4,
+        444,
+        52
+      ],
+      "offset": [
+        -1,
+        -0.5
+      ],
+      "originalSize": [
+        450,
+        59
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

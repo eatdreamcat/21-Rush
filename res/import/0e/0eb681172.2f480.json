@@ -1,0 +1,188 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font02",
+      "texture": "7ch3cSO51Ac78xBLXJ1Bli",
+      "rect": [
+        737,
+        85,
+        474,
+        67
+      ],
+      "offset": [
+        -3,
+        -1
+      ],
+      "originalSize": [
+        660,
+        81
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font06",
+      "texture": "7ch3cSO51Ac78xBLXJ1Bli",
+      "rect": [
+        1,
+        169,
+        637,
+        82
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        723,
+        82
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "title.plist",
+    "_spriteFrames": {
+      "bg_complete": {
+        "__uuid__": "f42tS53RtFrYwY9a2LrvGe"
+      },
+      "bg_font01": {
+        "__uuid__": "9btOTUcudG9ovLlg+MN4eW"
+      },
+      "bg_font02": {
+        "__uuid__": "42gGXlmq1FZLbZdyG6W5r6"
+      },
+      "bg_font03": {
+        "__uuid__": "f4x89nHxdHAb5KObxZ1Td6"
+      },
+      "bg_font06": {
+        "__uuid__": "4eFrv8fSJMgol97X/4KGfk"
+      },
+      "out_of_move": {
+        "__uuid__": "cdKYeHbRtI7ZQYsITf1f05"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font01",
+      "texture": "7ch3cSO51Ac78xBLXJ1Bli",
+      "rect": [
+        640,
+        169,
+        564,
+        67
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        660,
+        81
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "out_of_move",
+      "texture": "7ch3cSO51Ac78xBLXJ1Bli",
+      "rect": [
+        1,
+        85,
+        734,
+        82
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        734,
+        82
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font03",
+      "texture": "7ch3cSO51Ac78xBLXJ1Bli",
+      "rect": [
+        793,
+        1,
+        396,
+        69
+      ],
+      "offset": [
+        0,
+        -1
+      ],
+      "originalSize": [
+        660,
+        81
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_complete",
+      "texture": "7ch3cSO51Ac78xBLXJ1Bli",
+      "rect": [
+        1,
+        1,
+        790,
+        82
+      ],
+      "offset": [
+        -1,
+        0
+      ],
+      "originalSize": [
+        792,
+        82
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

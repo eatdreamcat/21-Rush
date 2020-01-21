@@ -1,0 +1,98 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font2",
+      "texture": "51BmTT9JpKSqPpfyj6Ocsq",
+      "rect": [
+        1,
+        189,
+        1065,
+        186
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1065,
+        186
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font3",
+      "texture": "51BmTT9JpKSqPpfyj6Ocsq",
+      "rect": [
+        1,
+        377,
+        1065,
+        186
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1065,
+        186
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "bg_font1",
+      "texture": "51BmTT9JpKSqPpfyj6Ocsq",
+      "rect": [
+        1,
+        1,
+        1065,
+        186
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        1065,
+        186
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "completeFont.plist",
+    "_spriteFrames": {
+      "bg_font1": {
+        "__uuid__": "81Fwd3+cxBmrY+5WTZG/6m"
+      },
+      "bg_font2": {
+        "__uuid__": "24QRRUHOVDlZvnpMOKkhoZ"
+      },
+      "bg_font3": {
+        "__uuid__": "6arMO7MSlKlI06Qdt2rVh8"
+      }
+    }
+  }
+]

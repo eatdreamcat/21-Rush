@@ -1,0 +1,159 @@
+[
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_wild2",
+      "texture": "2570O7j5dCcpXs75L1DCCo",
+      "rect": [
+        121,
+        1,
+        84,
+        60
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        84,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteAtlas",
+    "_name": "21cashUi.plist",
+    "_spriteFrames": {
+      "btn_wild": {
+        "__uuid__": "a364EBDZZPCImvMk+iBu52"
+      },
+      "btn_wild1": {
+        "__uuid__": "94xY8myMtElYbE6YHAyUcN"
+      },
+      "btn_wild2": {
+        "__uuid__": "58or94eWVN+JtcLzsDCU1S"
+      },
+      "btn_wildX": {
+        "__uuid__": "f3G6Vj0HdF6boUj6uq0Pxk"
+      },
+      "btn_wildnone": {
+        "__uuid__": "a9WGu1z6pIvqRViAFFzVrX"
+      }
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_wild1",
+      "texture": "2570O7j5dCcpXs75L1DCCo",
+      "rect": [
+        35,
+        1,
+        84,
+        60
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        84,
+        60
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_wild",
+      "texture": "2570O7j5dCcpXs75L1DCCo",
+      "rect": [
+        1,
+        63,
+        227,
+        211
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        227,
+        211
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_wildnone",
+      "texture": "2570O7j5dCcpXs75L1DCCo",
+      "rect": [
+        1,
+        276,
+        227,
+        211
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        227,
+        211
+      ],
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  },
+  {
+    "__type__": "cc.SpriteFrame",
+    "content": {
+      "name": "btn_wildX",
+      "texture": "2570O7j5dCcpXs75L1DCCo",
+      "rect": [
+        1,
+        1,
+        31,
+        32
+      ],
+      "offset": [
+        0,
+        0
+      ],
+      "originalSize": [
+        31,
+        32
+      ],
+      "rotated": 1,
+      "capInsets": [
+        0,
+        0,
+        0,
+        0
+      ]
+    }
+  }
+]

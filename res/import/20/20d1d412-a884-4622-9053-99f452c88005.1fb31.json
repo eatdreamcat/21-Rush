@@ -1,0 +1,27 @@
+{
+  "__type__": "cc.SpriteFrame",
+  "content": {
+    "name": "guide_start",
+    "texture": "3agkyhNLtN/o2qg3Hur3IH",
+    "rect": [
+      0,
+      0,
+      926,
+      595
+    ],
+    "offset": [
+      0,
+      0
+    ],
+    "originalSize": [
+      926,
+      595
+    ],
+    "capInsets": [
+      0,
+      0,
+      0,
+      0
+    ]
+  }
+}
